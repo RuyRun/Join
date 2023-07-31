@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Navbar</title>
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/navbar.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <nav>
+            <img src="./assets/images/logo-white.png" alt="" class="nav-logo">
+            <div class="nav-menu">
+                <a href="summary.html" id="summaryNav" onclick="setNav('summaryNav')"><img src="./assets/images/summary.png" alt=""> Summary</a>
+                <a href="board.html" id="boardNav" onclick="setNav('boardNav')"><img src="./assets/images/board.png" alt=""> Board</a>
+                <a href="addtask.html" id="addTaskNav" onclick="setNav('addTaskNav')"><img src="./assets/images/add-task.png" alt=""> Add Task</a>
+                <a href="contacts.html" id="contactsNav" onclick="setNav('contactsNav')"><img src="./assets/images/contacts.png" alt=""> Contacts</a>
+            </div>
+            <div class="legal-notes">
+                <a href="impressum.html" id="impressumNav" onclick="setNav('impressumNav')"><img src="./assets/images/legal-notice.png" alt="">Legal
+                    Notice</a>
+            </div>
+        </nav>
+        <header>
+            <h2>Kanban Project Management Tool</h2>
+            <img src="./assets/images/logo.png" alt="" class="head-logo d-none">
+            <div class="mobile_create_button_nav" onclick="createTask()">Create<div class="task_text">Task</div><img src="assets/images/haken.png" alt=""></div>
+            <div class="user-bar">
+                <a href="./help.html"><img src="./assets/images/question-icon.png" class="question-icon" alt=""></a>
+                <img src="./assets/images/placeholder.jpg" alt="" class="user-img" onclick="showLogout()">
+                <div id="logout" class="d-none">
+                    <p><a href="help.html" onclick="setNav('impressumNav')">Help</a></p>
+                    <p><a href="impressum.html" onclick="setNav('impressumNav')">Legal notice</a></p>
+                    <p onclick="logout()">Log out</p>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>
+
+</html>

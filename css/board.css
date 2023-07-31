@@ -1,0 +1,667 @@
+/* inter-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../assets/fonts/inter-v12-latin-100.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-100.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-100.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-100.woff") format("woff"), url("../assets/fonts/inter-v12-latin-100.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-100.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../assets/fonts/inter-v12-latin-200.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-200.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-200.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-200.woff") format("woff"), url("../assets/fonts/inter-v12-latin-200.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-200.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/inter-v12-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-300.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-300.woff") format("woff"), url("../assets/fonts/inter-v12-latin-300.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-300.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/inter-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-regular.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-regular.woff") format("woff"), url("../assets/fonts/inter-v12-latin-regular.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-regular.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/inter-v12-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-500.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-500.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-500.woff") format("woff"), url("../assets/fonts/inter-v12-latin-500.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-500.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/inter-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-600.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-600.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-600.woff") format("woff"), url("../assets/fonts/inter-v12-latin-600.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-600.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/inter-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-700.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-700.woff") format("woff"), url("../assets/fonts/inter-v12-latin-700.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-700.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/inter-v12-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-800.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-800.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-800.woff") format("woff"), url("../assets/fonts/inter-v12-latin-800.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-800.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../assets/fonts/inter-v12-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-900.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-900.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-900.woff") format("woff"), url("../assets/fonts/inter-v12-latin-900.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-900.svg#Inter") format("svg"); /* Legacy iOS */
+}
+#board {
+  position: absolute;
+  top: 130px;
+  left: 340px;
+  width: 70vw;
+}
+#board .drag-area {
+  border: 1px gray dotted;
+  border-radius: 15px;
+}
+#board [id^=subtaskProgress] p {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 16px;
+}
+#board [id^=subtaskProgress] progress {
+  background-color: white;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 8px;
+}
+#board [id^=subtaskProgress] progress::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 5px;
+}
+#board [id^=subtaskProgress] progress::-webkit-progress-value {
+  background-color: #29ABE2;
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+#board #todoContainer,
+#board #inprogressContainer,
+#board #awaitingFeedbackContainer,
+#board #doneContainer {
+  min-height: 500px;
+}
+#board .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#board .head h2 {
+  font-size: 61px;
+}
+#board .add-task-menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#board .add-task-menu input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  background: white url("../assets/images/search-icon.png") right no-repeat;
+  background-position: 94% 55%;
+  height: 14px;
+}
+#board .add-task-menu .addtask-btn {
+  background-color: #2A3647;
+  color: white;
+  padding: 10px 32px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 8px;
+}
+#board .add-task-menu .addtask-btn:hover {
+  background-color: #29ABE2;
+}
+#board .add-task-menu .addtask-btn img {
+  height: 12px;
+}
+#board .board-container {
+  margin-right: 16px;
+}
+#board .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#board .flex-item {
+  flex: 1 0 200px;
+  margin-left: 15px;
+}
+#board .flex-item .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: sticky;
+  top: 80px;
+  z-index: 99;
+  background-color: #F6F7F8;
+}
+#board .flex-item .top h3 {
+  font-size: 21px;
+}
+#board .flex-item .top img {
+  height: 24px;
+  cursor: pointer;
+}
+#board .flex-item .task-container {
+  background-color: white;
+  padding: 16px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  position: relative;
+}
+#board .flex-item .task-container .switch-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.911);
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#board .flex-item .task-container .switch-container > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#board .flex-item .task-container .task-department {
+  background-color: orange;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  width: 90px;
+  text-align: center;
+  margin: 0px;
+}
+#board .flex-item .task-container .switch-task-btn {
+  color: #2A3647;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+  border: 1px solid #2A3647;
+  padding: 10px;
+  font-size: 12px;
+  display: none;
+}
+#board .flex-item .task-container .switch-task-btn:hover {
+  color: #29ABE2;
+  border: 1px solid #29ABE2;
+}
+#board .flex-item .task-container .task-titel {
+  font-weight: 600;
+}
+#board .flex-item .task-container .task-description-text {
+  overflow: hidden;
+  max-width: 20ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+#board .flex-item .task-container .selected-user-icons {
+  display: flex;
+  align-items: center;
+}
+#board .flex-item .task-container .selected-user-icons img {
+  height: 10px;
+  width: 16px;
+  margin-left: 100px;
+  justify-content: flex-end;
+  display: flex;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+#board .flex-item .task-container .selected-user-icons .selected-user {
+  margin-left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: white;
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+#board .flex-item .task-container .selected-user-icons .selected-user:first-child {
+  margin-left: 0px;
+}
+#board .flex-item .task-container .selected-user-icons .selected-user:nth-child(2) {
+  background-color: rgb(0, 60, 255);
+}
+
+@keyframes slide-in-blurred-right {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+#overlayContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.712);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#overlayContent #taskView {
+  background-color: #F6F7F8;
+  position: relative;
+  width: 450px;
+  height: 650px;
+  border-radius: 16px;
+  padding: 16px;
+  animation: slide-in-blurred-right 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+#overlayContent #taskView .close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+#overlayContent #taskView .close:hover {
+  filter: invert(49%) sepia(58%) saturate(2288%) hue-rotate(159deg) brightness(91%) contrast(104%);
+}
+#overlayContent #taskView .category {
+  width: max-content;
+  padding: 8px;
+  border-radius: 8px;
+}
+#overlayContent #taskView h3 {
+  color: #2A3647;
+  font-size: 24px;
+}
+#overlayContent #taskView .bold {
+  font-weight: 600;
+}
+#overlayContent #taskView #assignUser .assign-user-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+#overlayContent #taskView #assignUser .assign-user-content .frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  min-width: 42px;
+  height: 42px;
+  color: #FFFFFF;
+  border-radius: 100%;
+}
+#overlayContent #taskView .actions {
+  position: absolute;
+  bottom: 24px;
+  right: 40px;
+  display: flex;
+}
+#overlayContent #taskView .actions .delete-btn {
+  border-top: 1px solid #2A3647;
+  border-left: 1px solid #2A3647;
+  border-bottom: 1px solid #2A3647;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  cursor: pointer;
+}
+#overlayContent #taskView .actions .delete-btn:hover {
+  filter: invert(49%) sepia(58%) saturate(2288%) hue-rotate(159deg) brightness(91%) contrast(104%);
+}
+#overlayContent #taskView .actions .edit-btn {
+  background-color: #2A3647;
+  border-top: 1px solid #2A3647;
+  border-right: 1px solid #2A3647;
+  border-bottom: 1px solid #2A3647;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  cursor: pointer;
+}
+#overlayContent #taskView .actions .edit-btn img {
+  height: 20px;
+  width: 20px;
+}
+#overlayContent #taskView .actions .edit-btn:hover {
+  background-color: #29ABE2;
+  border-top: 1px solid #29ABE2;
+  border-right: 1px solid #29ABE2;
+  border-bottom: 1px solid #29ABE2;
+}
+#overlayContent #taskEditView {
+  background-color: #F6F7F8;
+  position: relative;
+  width: 450px;
+  height: 650px;
+  border-radius: 16px;
+  padding: 16px;
+  animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+#overlayContent #taskEditView .close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+#overlayContent #taskEditView .close:hover {
+  filter: invert(49%) sepia(58%) saturate(2288%) hue-rotate(159deg) brightness(91%) contrast(104%);
+}
+#overlayContent #taskEditView .input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  width: 80%;
+  resize: none;
+  font-size: 14px;
+  font-family: "Inter";
+}
+#overlayContent #taskEditView .prio-btns {
+  display: flex;
+  gap: 25px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+#overlayContent #taskEditView .prio-btns .prio_button_urgent {
+  color: white;
+  background-color: #FF3D00 !important;
+}
+#overlayContent #taskEditView .prio-btns .prio_button_urgent img {
+  filter: brightness(0) invert(1);
+}
+#overlayContent #taskEditView .prio-btns .prio_button_medium {
+  color: white;
+  background-color: #FFA800 !important;
+}
+#overlayContent #taskEditView .prio-btns .prio_button_medium img {
+  filter: brightness(0) invert(1);
+}
+#overlayContent #taskEditView .prio-btns .prio_button_low {
+  color: white;
+  background-color: #7AE229 !important;
+}
+#overlayContent #taskEditView .prio-btns .prio_button_low img {
+  filter: brightness(0) invert(1);
+}
+#overlayContent #taskEditView .prio-btns .prio-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid #D1D1D1;
+  border-radius: 10px;
+  padding: 8px;
+  transition: 500ms;
+}
+#overlayContent #taskEditView .prio-btns .prio-btn img {
+  padding-left: 16px;
+}
+#overlayContent #taskEditView .prio-btns .prio-btn:hover {
+  transition: 500ms;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.41);
+}
+#overlayContent #taskEditView #contactBox .render_categorys_box {
+  position: absolute;
+  background-color: white;
+  overflow-x: hidden;
+  width: 360px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  max-height: 155px;
+  margin-bottom: 34px;
+  border-radius: 10px;
+  border-right: 1px solid #D1D1D1;
+  border-left: 1px solid #D1D1D1;
+}
+#overlayContent #taskEditView #contactBox .render_categorys_box #selectetContacts {
+  display: flex;
+  flex-direction: column;
+}
+#overlayContent #taskEditView #contactBox .render_categorys_box #selectetContacts .selectet-contact-box {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+#overlayContent #taskEditView #contactBox .render_categorys_box #selectetContacts .selectet-contact-box:hover {
+  background-color: #AFAFAF;
+}
+#overlayContent #taskEditView #contactBox .render_categorys_box #selectetContacts .selectet-contact-box input {
+  cursor: pointer;
+}
+#overlayContent #taskEditView #contactBox .render_categorys_box .render_categorys {
+  position: relative;
+  border-top: 1px solid #D1D1D1;
+  border-right: 1px solid #D1D1D1;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: white;
+  padding: 20px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  animation: ease-in-out;
+  cursor: pointer;
+}
+#overlayContent #taskEditView #contactBox .render_categorys_box .render_categorys:hover {
+  background-color: #AFAFAF;
+}
+#overlayContent #taskEditView #contactBox .drop_down {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  padding-left: 13px;
+  box-sizing: border-box;
+  border: 1px solid #D1D1D1;
+  width: 360px;
+  height: 41px;
+  border-radius: 10px;
+}
+#overlayContent #taskEditView #contactBox .drop_down .down_image {
+  position: absolute;
+  left: 331px;
+  top: 13px;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+}
+#overlayContent #taskEditView .save-btn {
+  background-color: #2A3647;
+  width: max-content;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+#overlayContent #taskEditView .save-btn:hover {
+  background-color: #29ABE2;
+  box-shadow: 0px 10px 15px -7px #000000;
+  transition: 0.3s;
+}
+#overlayContent #taskEditView .selected-user-icons {
+  margin-top: 16px;
+  display: flex;
+}
+#overlayContent #taskEditView .selected-user-icons .selected-user {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+@media (max-width: 1120px) {
+  #board {
+    left: 240px;
+  }
+}
+@media (max-width: 760px) {
+  #board {
+    top: 60px;
+    left: 16px;
+    width: 90vw;
+    padding-bottom: 90px;
+  }
+  #board h2 {
+    font-size: 47px !important;
+  }
+  #board .task-container .head .switch-task-btn {
+    display: block !important;
+  }
+  .head {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  #board .flex-item {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 520px) {
+  #board > .head {
+    height: 200px;
+    position: relative;
+  }
+  #board > .head .add-task-menu #searchInput {
+    position: absolute;
+    left: 0px;
+    top: 142px;
+  }
+  #board > .head .add-task-menu .hide-mobile {
+    display: none;
+  }
+  .add-task-menu {
+    flex-direction: column-reverse;
+    margin-top: 16px;
+  }
+  .flex-item .top {
+    position: sticky !important;
+    z-index: 0 !important;
+  }
+}
+.prio_button_medium {
+  width: max-content;
+  color: white;
+  background-color: #FFA800 !important;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.prio_button_medium img {
+  filter: brightness(0) invert(1);
+}
+
+.prio_button_urgent {
+  color: white;
+  background-color: #FF3D00 !important;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.prio_button_urgent img {
+  filter: brightness(0) invert(1);
+}
+
+.prio_button_low {
+  color: white;
+  background-color: #7AE229 !important;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.prio_button_low img {
+  filter: brightness(0) invert(1);
+}/*# sourceMappingURL=board.css.map */

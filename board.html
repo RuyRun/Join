@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Join - Board</title>
+    <script src="./js/main.js"></script>
+    <script src="./js/add-task.js"></script>
+    <script src="./js/addTask-overlay.js"></script>
+    
+    <script src="./js/renderBoard.js"></script>
+    <script src="./js/board.js"></script>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/board.css">
+</head>
+
+<body>
+    <div w3-include-html="navbar.html"></div>
+    <div id="board">
+        <div class="head">
+            <h2>Board</h2>
+            <div class="add-task-menu">
+                <input type="text" id="searchInput" onkeyup="search()" placeholder="Find Task">
+                <div class="addtask-btn" onclick="showAddTaskOverlay()"><span class="hide-mobile">Add Task</span> <img
+                        src="./assets/images/add-task-plus-icon.png" alt=""></div>
+            </div>
+        </div>
+        <div class="board-container">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <div class="top">
+                        <h3>To Do</h3>
+                        <img src="./assets/images/plus-button-darkblue.png" alt="" onclick="showAddTaskOverlay(`todoContainer`)">
+                    </div>
+                    <div id="todoContainer" ondrop="drop('todoContainer')" ondragleave="delHighlight('todoContainer')"
+                        ondragover="allowDrop(event); highlight('todoContainer')">
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="top">
+                        <h3>In progress</h3>
+                        <img src="./assets/images/plus-button-darkblue.png" alt="" onclick="showAddTaskOverlay(`inprogressContainer`)">
+                    </div>
+                    <div id="inprogressContainer" ondrop="drop('inprogressContainer')"
+                        ondragleave="delHighlight('inprogressContainer')"
+                        ondragover="allowDrop(event); highlight('inprogressContainer')">
+
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="top">
+                        <h3>Awaiting Freedback</h3>
+                        <img src="./assets/images/plus-button-darkblue.png" alt="" onclick="showAddTaskOverlay('awaitingFeedbackContainer')">
+                    </div>
+                    <div id="awaitingFeedbackContainer" ondrop="drop('awaitingFeedbackContainer')"
+                        ondragleave="delHighlight('awaitingFeedbackContainer')"
+                        ondragover="allowDrop(event); highlight('awaitingFeedbackContainer')">
+
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="top">
+                        <h3>Done</h3>
+                        <img src="./assets/images/plus-button-darkblue.png" alt="" onclick="showAddTaskOverlay('doneContainer')">
+                    </div>
+                    <div id="doneContainer" ondrop="drop('doneContainer')" ondragleave="delHighlight('doneContainer')"
+                        ondragover="allowDrop(event); highlight('doneContainer')">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="addTask" class="d-none"></div>
+    <div id="overlayContent" class="d-none" onclick="closeOverlay()"> <!--d-none -->
+
+    </div>
+</body>
+
+</html>

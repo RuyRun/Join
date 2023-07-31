@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Join - Summary</title>
+    <script src="./js/main.js"></script>
+    <script src="./js/summary.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/summary.css">
+</head>
+
+<body>
+
+    <div w3-include-html="navbar.html">
+
+    </div>
+    <div id="summary">
+        <div class="head">
+            <h2>Summary</h2>
+            <div class="line"></div>
+            <p>Everything is a nutshell!</p>
+            <div class="mobile-line"></div>
+        </div>
+        <div class="summary-content">
+            <div class="statistics">
+                <div class="first">
+                    <div class="task" onclick="loadBoard()">
+                        <p id="entireTasks"></p>
+                        <p>Tasks in <br>Board</p>
+                    </div>
+                    <div class="task" onclick="loadBoard()">
+                        <p id="inProgress"></p>
+                        <p>Tasks in <br>Progress</p>
+                    </div>
+                    <div class="task" onclick="loadBoard()">
+                        <p id="feedback"></p>
+                        <p>Awaiting Feedback</p>
+                    </div>
+                </div>
+                <div class="sec">
+                    <div class="task" onclick="loadBoard()">
+                        <div class="urgent">
+                            <img src="./assets/images/urgent.svg" alt="">
+                            <div class="urgent-nums">
+                                <p id="numUrgent"></p>
+                                <p>Urgent</p>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="deadline">
+                            <p id="deadlineDate"></p>
+                            <p>Upcoming Deadline</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="task" onclick="loadBoard()">
+                        <img src="./assets/images/pencil.svg" alt="">
+                        <div class="nums">
+                            <p id="todos"></p>
+                            <p>To-Do</p>
+                        </div>
+                    </div>
+                    <div class="task" onclick="loadBoard()">
+                        <img src="./assets/images/check.svg" alt="">
+                        <div class="nums">
+                            <p id="done"></p>
+                            <p>Done</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="greeting">
+                <p id="greet">Good Morning,</p>
+                <p class="greeting-name" id="greeting"></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

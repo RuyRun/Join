@@ -1,0 +1,582 @@
+@charset "UTF-8";
+.mobile_create_button_nav {
+  position: absolute;
+  right: 35px;
+  z-index: 100;
+  top: 15px;
+  height: 51px;
+  width: 124px;
+  justify-content: center;
+  width: 177px;
+  border-radius: 10px;
+  align-items: center;
+  font-size: 21px;
+  font-weight: 700;
+  color: white;
+  background-color: #2A3647;
+  transition: 300ms;
+}
+.mobile_create_button_nav:hover {
+  cursor: pointer;
+  background: #29ABE2;
+  transition: 300ms;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.41);
+}
+.mobile_create_button_nav img {
+  filter: brightness(0) invert(1);
+  margin-left: 10px;
+}
+
+#addTask {
+  position: absolute;
+  top: 130px;
+  left: 340px;
+  height: calc(100vh - 180px);
+}
+#addTask h2 {
+  font-size: 61px;
+}
+#addTask .container form {
+  height: 100%;
+  display: flex;
+}
+#addTask .container form .input-box {
+  margin-bottom: 16px;
+  width: 422px;
+}
+#addTask .container form .input-box .title {
+  font-size: 21px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+#addTask .container form .input-box .input {
+  position: relative;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  width: 80%;
+  resize: none;
+  font-size: 14px;
+  font-family: "Inter";
+}
+#addTask .container form .input-box .input:focus {
+  outline: none;
+}
+#addTask .container form .input-box .subtask-input {
+  position: relative;
+}
+#addTask .container form .input-box .subtask-input img {
+  position: absolute;
+  top: 8px;
+  left: 327px;
+  cursor: pointer;
+}
+#addTask .container form .left #category {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  background: white url("../../assets/images/dropdown.png") right no-repeat;
+  background-position: 98% 55%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 85%;
+}
+#addTask .container form .left .selected-user-icons {
+  margin-top: 16px;
+  display: flex;
+}
+#addTask .container form .left .selected-user-icons .selected-user {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+#addTask .container form .left .drop_down_open .down_image {
+  transform: rotate(90deg);
+}
+#addTask .container form .left .drop_down {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: white;
+  padding-left: 13px;
+  box-sizing: border-box;
+  border: 1px solid #D1D1D1;
+  width: 360px;
+  height: 41px;
+  border-radius: 10px;
+}
+#addTask .container form .left .drop_down .down_image {
+  position: absolute;
+  right: 16px;
+  top: 13px;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+}
+#addTask .container form .left .render_categorys {
+  position: relative;
+  font-size: 21px;
+  font-weight: 400;
+  background-color: white;
+  padding: 20px;
+  padding-left: 60px;
+  box-sizing: border-box;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  animation: ease-in-out;
+}
+#addTask .container form .left .render_categorys:hover {
+  cursor: pointer;
+  background-color: #AFAFAF !important;
+  transition: 200ms;
+}
+#addTask .container form .left .render_categorys .delete_image {
+  z-index: 10;
+  position: absolute;
+  left: 370px;
+  top: 14px;
+  width: 24px;
+  height: 24px;
+}
+#addTask .container form .left .render_categorys .delete_image:hover {
+  filter: brightness(0) invert(1);
+  border: 2px solid white;
+  border-radius: 100%;
+}
+#addTask .container form .left .render_categorys_box {
+  background-color: white;
+  overflow-x: hidden;
+  width: 360px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  max-height: 155px;
+  margin-bottom: 34px;
+  border-radius: 10px;
+  border-right: 1px solid #D1D1D1;
+  border-left: 1px solid #D1D1D1;
+  position: absolute;
+  z-index: 100;
+  scrollbar-width: thin;
+  scrollbar-color: #5e5e5e #ffffff;
+}
+#addTask .container form .left .render_categorys_box::-webkit-scrollbar {
+  width: 11px;
+}
+#addTask .container form .left .render_categorys_box::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+#addTask .container form .left .render_categorys_box::-webkit-scrollbar-thumb {
+  background-color: #5e5e5e;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+#addTask .container form .left .render_categorys_box #selectetContacts {
+  display: flex;
+  flex-direction: column;
+}
+#addTask .container form .left .render_categorys_box #selectetContacts .selectet-contact-box {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+#addTask .container form .left .render_categorys_box #selectetContacts .selectet-contact-box:hover {
+  background-color: #AFAFAF;
+}
+#addTask .container form .left .render_categorys_box .render_categorys {
+  position: relative;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: white;
+  padding: 20px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  animation: ease-in-out;
+}
+#addTask .container form .center {
+  height: 390px;
+  width: 1px;
+  background-color: #D1D1D1;
+  margin-right: 32px;
+}
+#addTask .container form .right .prio-btns {
+  display: flex;
+  gap: 25px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+#addTask .container form .right .prio-btns .prio_button_urgent {
+  color: white;
+  background-color: #FF3D00 !important;
+}
+#addTask .container form .right .prio-btns .prio_button_urgent img {
+  filter: brightness(0) invert(1);
+}
+#addTask .container form .right .prio-btns .prio_button_medium {
+  color: white;
+  background-color: #FFA800 !important;
+}
+#addTask .container form .right .prio-btns .prio_button_medium img {
+  filter: brightness(0) invert(1);
+}
+#addTask .container form .right .prio-btns .prio_button_low {
+  color: white;
+  background-color: #7AE229 !important;
+}
+#addTask .container form .right .prio-btns .prio_button_low img {
+  filter: brightness(0) invert(1);
+}
+#addTask .container form .right .prio-btns .prio-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid #D1D1D1;
+  border-radius: 10px;
+  padding: 8px;
+  transition: 500ms;
+}
+#addTask .container form .right .prio-btns .prio-btn img {
+  padding-left: 16px;
+}
+#addTask .container form .right .prio-btns .prio-btn:hover {
+  transition: 500ms;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.41);
+}
+#addTask .container form .right .subtasks {
+  position: relative;
+}
+#addTask .container form .right .subtasks .plus_image {
+  position: absolute;
+  top: 7px;
+  right: 74px;
+}
+#addTask .container form .right .subtasks .plus_image:hover {
+  cursor: pointer;
+}
+#addTask .container form .right .subtask_child {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+#addTask .container form .right .subtask_child img {
+  position: absolute;
+  left: 300px;
+  top: 1px;
+  cursor: pointer;
+}
+#addTask .container form .right .subtask_child .checkbox_subtask {
+  margin: 0px;
+  cursor: pointer;
+}
+#addTask .container form .right .subtask_child .subTask_Text {
+  margin-left: 30px;
+}
+#addTask .container form .right .subtask_box {
+  overflow-x: hidden;
+  width: 360px;
+  min-height: 110px;
+  max-height: 111px;
+  overflow-y: auto;
+}
+#addTask .container form .right .subtask_box .hook {
+  display: flex;
+  align-items: center;
+}
+#addTask .container form .clear_create_task {
+  position: absolute;
+  right: 70px;
+  top: 600px;
+  width: 422px;
+  display: flex;
+  justify-content: flex-end;
+}
+#addTask .container form .clear_create_task .clear_button {
+  margin-right: 35px;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2A3647;
+  border-radius: 10px;
+  width: 136px;
+  height: 55px;
+  transition: 300ms;
+}
+#addTask .container form .clear_create_task .clear_button:hover {
+  cursor: pointer;
+  color: #29ABE2;
+  border-color: #29ABE2;
+  transition: 300ms;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.41);
+}
+#addTask .container form .clear_create_task .create_button {
+  justify-content: center;
+  width: 177px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: #2A3647;
+  transition: 300ms;
+}
+#addTask .container form .clear_create_task .create_button:hover {
+  cursor: pointer;
+  background: #29ABE2;
+  transition: 300ms;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.41);
+}
+#addTask .container form .clear_create_task .create_button img {
+  filter: brightness(0) invert(1);
+  margin-left: 10px;
+}
+#addTask .container form .clear_create_task .mobile_create_button_nav {
+  transform: scale(0);
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  justify-content: center;
+  width: 124px;
+  height: 51px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 21px;
+  color: white;
+  background-color: #2A3647;
+  transition: 300ms;
+}
+#addTask .container form .clear_create_task .mobile_create_button_nav:hover {
+  cursor: pointer;
+  background: #29ABE2;
+  transition: 300ms;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.41);
+}
+#addTask .container form .clear_create_task .mobile_create_button_nav img {
+  filter: brightness(0) invert(1);
+  margin-left: 10px;
+}
+#addTask .container .color_points {
+  display: flex;
+  margin-top: 5px;
+}
+#addTask .container .color {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-bottom: 38px;
+  transition: 300ms;
+  cursor: pointer;
+}
+#addTask .container .color_active {
+  border: 1px solid black;
+  transform: scale(1.2);
+  transition: 300ms;
+}
+#addTask .container .category_color {
+  display: flex;
+  align-items: center;
+}
+#addTask .container .color2 {
+  position: absolute;
+  left: 260px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+#addTask .category_name_box {
+  display: flex;
+  position: relative;
+}
+#addTask .input_category_name {
+  width: 362px;
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 20px;
+}
+#addTask .x✔ {
+  position: absolute;
+  top: 5px;
+  left: 290px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+#addTask .x✔ div:last-child {
+  padding-left: 5px;
+}
+#addTask .x {
+  width: 28px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #D1D1D1;
+}
+#addTask .addBord_box {
+  z-index: -10;
+  display: none;
+  bottom: 150px;
+  position: absolute;
+  left: calc(50% - 163px);
+  color: white;
+  font-weight: 400;
+  font-size: 21px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 326px;
+  height: 74px;
+  background: #2A3647;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
+  animation-timing-function: ease-in-out;
+  opacity: 0;
+}
+
+.addBord_box_active {
+  animation: slide-in-bottom 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.slide-out-right {
+  animation: slide-out-right 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  75% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+}
+@keyframes slide-out-right {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+}
+@media (max-width: 1170px) {
+  .add-task .container form {
+    padding-left: 8px;
+    flex-direction: column;
+  }
+  .add-task .container form .clear_create_task {
+    position: unset !important;
+    justify-content: flex-start !important;
+    margin-bottom: 60px;
+  }
+  .add-task .container form .center {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .mobile_create_button_nav {
+    display: flex !important;
+  }
+  .user-bar {
+    display: none !important;
+  }
+  #addTask {
+    top: 60px;
+    left: 16px !important;
+  }
+  #addTask .head h2 {
+    font-size: 47px;
+  }
+  .add-task {
+    left: 5px !important;
+  }
+  .add-task .container form .right .subtask_box {
+    margin-bottom: 145px;
+  }
+  .add-task .container form .clear_create_task {
+    display: none !important;
+    padding-bottom: 160px;
+  }
+}
+@media (max-width: 450px) {
+  .add-task .input-box {
+    width: 328px !important;
+  }
+  .add-task .input-box .input {
+    width: 272px !important;
+  }
+  .add-task .container .color2 {
+    left: 219px !important;
+  }
+  .add-task .container form {
+    padding-left: 0px !important;
+  }
+  .add-task .container form .left .drop_down {
+    width: 294px !important;
+  }
+  .add-task .container form .left .render_categorys_box {
+    width: 295px !important;
+  }
+  .add-task .container form .right .subtasks .plus_image {
+    left: 261px;
+  }
+  .add-task .container form .right .subtask_box {
+    width: 326px !important;
+  }
+  .add-task .container form .right .prio-btns {
+    gap: 5px !important;
+  }
+  .add-task .container form .right .subtask_child img {
+    left: 265px;
+  }
+  .add-task .container form .right .prio-btns .prio-btn img {
+    padding-left: 7px !important;
+  }
+  .add-task .container form .clear_create_task {
+    width: fit-content !important;
+  }
+}
+@media (max-height: 800px) {
+  #addTask .container {
+    padding-bottom: 100px;
+  }
+}/*# sourceMappingURL=addtask.css.map */

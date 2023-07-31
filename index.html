@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Welcome to Join</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+
+<body>
+    <div class="start-animation">
+        <img class="logo-animation" src="./assets/images/logo.png" alt="">
+    </div>
+    <div class="login-page">
+        <div class="head">
+            <img src="./assets/images/logo.png" alt="Join-Logo" class="logo">
+            <div class="sign-up">
+                <p>Not a Join user?</p>
+                <a href="signup.html"><div class="sign-up-btn">Sign up</div></a>
+            </div>
+        </div>
+        <div class="login-container">
+            <div class="login-content">
+                <h2>Log in</h2>
+                <div class="line"></div>
+                <form onsubmit="login(); return false">
+                    <input type="email" name="email" id="email" placeholder="Email" class="input-email">
+                    <input type="password" name="password" id="password" placeholder="Password" class="input-password">
+                    <div class="login-checkbox">
+                        <span class="remember-me"><input id="remember-checkbox" type="checkbox" name="remember-me"> Remember me</span>
+                        <a class="forgot-password" href="forgotpassword.html">Forgot my password</a>
+                    </div>
+                    <div class="action-btns">
+                        <button class="log-in-btn">Log in</button>
+                        <div class="guest-log-in-btn" onclick="guestLogin()">Guest log in</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <span id="login-false" class="login-popup" style="display: none;">Data not correct ! Please check for correctness !</span>
+    </div>
+</body>
+
+</html>

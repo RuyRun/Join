@@ -1,0 +1,195 @@
+/* inter-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../assets/fonts/inter-v12-latin-100.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-100.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-100.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-100.woff") format("woff"), url("../assets/fonts/inter-v12-latin-100.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-100.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../assets/fonts/inter-v12-latin-200.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-200.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-200.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-200.woff") format("woff"), url("../assets/fonts/inter-v12-latin-200.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-200.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/inter-v12-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-300.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-300.woff") format("woff"), url("../assets/fonts/inter-v12-latin-300.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-300.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/inter-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-regular.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-regular.woff") format("woff"), url("../assets/fonts/inter-v12-latin-regular.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-regular.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/inter-v12-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-500.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-500.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-500.woff") format("woff"), url("../assets/fonts/inter-v12-latin-500.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-500.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/inter-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-600.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-600.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-600.woff") format("woff"), url("../assets/fonts/inter-v12-latin-600.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-600.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/inter-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-700.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-700.woff") format("woff"), url("../assets/fonts/inter-v12-latin-700.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-700.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/inter-v12-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-800.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-800.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-800.woff") format("woff"), url("../assets/fonts/inter-v12-latin-800.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-800.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../assets/fonts/inter-v12-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-900.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-900.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-900.woff") format("woff"), url("../assets/fonts/inter-v12-latin-900.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-900.svg#Inter") format("svg"); /* Legacy iOS */
+}
+#addTaskSite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 230px;
+  margin-top: 90px;
+  width: 70vw;
+  height: 80%;
+}
+#addTaskSite .add-task-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+#addTaskSite .add-task-container .head {
+  display: flex;
+  justify-content: space-between;
+}
+#addTaskSite .add-task-container .head img {
+  height: 32px;
+}
+#addTaskSite .add-task-container .head h3 {
+  font-size: 18px;
+}
+#addTaskSite .add-task-container form {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  height: 100%;
+}
+#addTaskSite .add-task-container form .input-box {
+  margin-bottom: 16px;
+  width: 100%;
+}
+#addTaskSite .add-task-container form .input-box .title {
+  font-size: 21px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+#addTaskSite .add-task-container form .input-box .input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  width: 80%;
+  resize: none;
+}
+#addTaskSite .add-task-container form .input-box .bla {
+  width: 83% !important;
+}
+#addTaskSite .add-task-container form .left {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+#addTaskSite .add-task-container form .left textarea {
+  height: 200px;
+}
+#addTaskSite .add-task-container form .left #category {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  background: white url("../../assets/images/dropdown.png") right no-repeat;
+  background-position: 98% 55%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+#addTaskSite .add-task-container form .center {
+  height: 100%;
+  width: 3px;
+  background-color: #D1D1D1;
+  margin: 0px 3px;
+}
+#addTaskSite .add-task-container form .right {
+  width: 45%;
+}
+#addTaskSite .add-task-container form .right .prio-btns {
+  display: flex;
+  gap: 16px;
+}
+#addTaskSite .add-task-container form .right .prio-btns .prio-btn {
+  border: 1px solid #D1D1D1;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+#addTaskSite .add-task-container form .right .prio-btns .prio-btn img {
+  height: 12px;
+  width: 14px;
+}
+#addTaskSite .add-task-container form .right .subtasks-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D1D1D1;
+  background: white url("../../assets/images/plus-dark.png") right no-repeat;
+  background-position: 98% 55%;
+}
+
+@media (max-width: 960px) {
+  form {
+    flex-direction: column;
+  }
+  form .center {
+    display: none;
+  }
+  form .right {
+    margin: 0px !important;
+  }
+}/*# sourceMappingURL=addtaskSite.css.map */

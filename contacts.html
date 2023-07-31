@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Join - Contacts</title>
+    <script src="./js/main.js"></script>
+    <script src="./js/renderContacts.js"></script>
+    <script src="./js/contacts.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contacts.css">
+    <script src="./js/addTask-overlay.js"></script>
+    <script src="./js/add-task.js"></script>
+</head>
+
+<body>
+    <div w3-include-html="navbar.html"></div>
+    <div id="addTaskOverlay"></div>
+    
+    <div id="contactsContainer">
+        
+        <div class="left" id="contactsCon">
+        </div>
+        <div class="right" id="contacDetail">
+            <div class="head">
+                <h2>Contacts</h2>
+                <p>Better with a team</p>
+                <img src="./assets/images/arrow-black.png" alt="" onclick="showItBack()">
+            </div>
+            <div id="contacDetails">
+               
+            </div>
+        </div>
+        <div class="new-contact" onclick="editShowContact()" id="newContactBtn">
+            New Contact
+            <img src="./assets/images/contacts-icons/addContact.png" alt="">
+        </div>
+    </div>
+
+
+    </div>
+    <div id="overlayContent" class="d-none" onclick="closeOverlay()">
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+/* inter-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../assets/fonts/inter-v12-latin-100.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-100.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-100.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-100.woff") format("woff"), url("../assets/fonts/inter-v12-latin-100.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-100.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../assets/fonts/inter-v12-latin-200.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-200.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-200.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-200.woff") format("woff"), url("../assets/fonts/inter-v12-latin-200.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-200.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/inter-v12-latin-300.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-300.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-300.woff") format("woff"), url("../assets/fonts/inter-v12-latin-300.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-300.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/inter-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-regular.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-regular.woff") format("woff"), url("../assets/fonts/inter-v12-latin-regular.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-regular.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/inter-v12-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-500.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-500.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-500.woff") format("woff"), url("../assets/fonts/inter-v12-latin-500.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-500.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/inter-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-600.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-600.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-600.woff") format("woff"), url("../assets/fonts/inter-v12-latin-600.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-600.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/inter-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-700.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-700.woff") format("woff"), url("../assets/fonts/inter-v12-latin-700.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-700.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../assets/fonts/inter-v12-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-800.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-800.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-800.woff") format("woff"), url("../assets/fonts/inter-v12-latin-800.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-800.svg#Inter") format("svg"); /* Legacy iOS */
+}
+/* inter-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../assets/fonts/inter-v12-latin-900.eot"); /* IE9 Compat Modes */
+  src: url("../assets/fonts/inter-v12-latin-900.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/inter-v12-latin-900.woff2") format("woff2"), url("../assets/fonts/inter-v12-latin-900.woff") format("woff"), url("../assets/fonts/inter-v12-latin-900.ttf") format("truetype"), url("../assets/fonts/inter-v12-latin-900.svg#Inter") format("svg"); /* Legacy iOS */
+}
+#summary {
+  position: absolute;
+  top: 130px;
+  left: 340px;
+}
+#summary .head {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+#summary .head h2 {
+  font-size: 61px;
+  margin: 26px 0px;
+}
+#summary .head .line {
+  height: 60px;
+  width: 4px;
+  background-color: #29ABE2;
+}
+#summary .head p {
+  font-size: 27px;
+}
+#summary .summary-content {
+  width: 100%;
+  display: flex;
+}
+#summary .summary-content .statistics {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#summary .summary-content .statistics .task {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  width: 170px;
+}
+#summary .summary-content .statistics .task:hover {
+  background-color: #2A3647;
+  color: white;
+  cursor: pointer;
+}
+#summary .summary-content .statistics .task p:first-child {
+  font-weight: 600;
+  font-size: 64px;
+  margin: 0;
+}
+#summary .summary-content .statistics .task p:last-child {
+  font-size: 21px;
+  margin: 0;
+  text-align: center;
+}
+#summary .summary-content .statistics .nums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#summary .summary-content .statistics .first {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+#summary .summary-content .statistics .sec {
+  width: 100%;
+  max-width: 526px;
+  margin-bottom: 16px;
+}
+#summary .summary-content .statistics .sec .task {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+#summary .summary-content .statistics .sec .urgent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+#summary .summary-content .statistics .sec .urgent .urgent-nums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#summary .summary-content .statistics .sec .line {
+  height: 60px;
+  width: 2px;
+  background-color: #D1D1D1;
+}
+#summary .summary-content .statistics .sec .deadline p:first-child {
+  font-size: 21px;
+  text-align: center;
+}
+#summary .summary-content .statistics .sec .deadline p:last-child {
+  font-size: 16px;
+}
+#summary .summary-content .statistics .last {
+  display: flex;
+  width: 100%;
+  max-width: 526px;
+  justify-content: space-between;
+  gap: 8px;
+}
+#summary .summary-content .statistics .last .task {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+#summary .summary-content .greeting {
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#summary .summary-content .greeting p {
+  font-size: 37px;
+  font-weight: 500;
+  margin: 0px 8px 0px 16px;
+}
+#summary .summary-content .greeting .greeting-name {
+  color: #29ABE2;
+  font-weight: 700;
+}
+
+@media (max-width: 1050px) {
+  #summary {
+    left: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .greeting {
+    display: none !important;
+  }
+  .summary-content .statistics {
+    width: 100% !important;
+  }
+}
+@media (max-width: 850px) {
+  #summary {
+    left: 250px;
+  }
+}
+@media (max-width: 780px) {
+  #summary {
+    margin-left: 16px !important;
+  }
+  #summary .head {
+    gap: 20px;
+  }
+  #summary .summary-content .statistics .task {
+    height: 120px !important;
+    width: 140px;
+  }
+  #summary .summary-content .statistics .task p:first-child {
+    font-size: 47px;
+  }
+  #summary .summary-content .statistics .task p:last-child {
+    font-size: 14px;
+  }
+  #summary .summary-content .statistics .sec {
+    max-width: 436px;
+  }
+  #summary .summary-content .statistics .sec .task {
+    width: 100% !important;
+  }
+  #summary .summary-content .statistics .last {
+    max-width: 436px;
+  }
+  #summary .summary-content .statistics .last .task {
+    height: 120px !important;
+    width: 210px !important;
+  }
+}
+@media (max-width: 760px) {
+  #summary {
+    top: 80px;
+    left: 16px;
+  }
+  #summary .head h2 {
+    font-size: 47px;
+  }
+  #summary .head p {
+    font-size: 21px;
+  }
+  #summary .summary-content {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 360px) {
+  #summary {
+    left: 0px;
+  }
+}
+@media (max-width: 580px) {
+  .head {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 5px !important;
+  }
+  .head h2 {
+    margin: 32px 0px 0px;
+  }
+  .head p {
+    margin: 0px;
+  }
+  .head .line {
+    display: none;
+  }
+  .head .mobile-line {
+    height: 3px;
+    width: 66px;
+    background-color: #29ABE2;
+    margin: 0px 0px 16px;
+  }
+}
+@media (max-width: 470px) {
+  .head h2 {
+    margin: 26px 0px 6px !important;
+  }
+  .task p:first-child {
+    font-size: 32px !important;
+  }
+  .task p:last-child {
+    font-size: 14px !important;
+  }
+  .deadline p:first-child {
+    font-size: 18px !important;
+  }
+  .deadline p:last-child {
+    font-size: 16px !important;
+  }
+  .urgent {
+    gap: 8px;
+    margin-left: 3px;
+  }
+  .urgent img {
+    width: 40px;
+    height: 40px;
+  }
+  .last .task img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .summary-content .statistics .task {
+    width: 100px !important;
+  }
+  .summary-content .statistics .sec {
+    max-width: 320px !important;
+  }
+  .summary-content .statistics .last {
+    max-width: 320px !important;
+  }
+}
+@media (max-height: 750px) {
+  #summary .summary-content {
+    margin-bottom: 150px;
+  }
+}
+@media (max-height: 650px) {
+  #summary {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=summary.css.map */
